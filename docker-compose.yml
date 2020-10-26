@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: bash -c "node_modules/.bin/webpack-dev-server --host 0.0.0.0"
+    volumes:
+      - .:/teste-back-end
+    environment: 
+      TESTE_BACK_END_DATABASE_PASSWORD: password
+    ports:
+      - "8080:8080"

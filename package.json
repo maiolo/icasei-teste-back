@@ -1,0 +1,18 @@
+{
+  "name": "front-end-icasei",
+  "version": "1.0.0",
+  "description": "parte front-end do teste da icasei",
+  "main": "index.js",
+  "author": "maiolo",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "uuid": "^8.3.1"
+  }
+}
